@@ -1,0 +1,14 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .product-create-form  mat-form-field{
+    margin: 5px;
+    width: 285px;
+  }
+
+  .product-create-form button{
+    margin: 8px;
+  }
