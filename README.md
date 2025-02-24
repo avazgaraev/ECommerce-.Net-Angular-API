@@ -1,3 +1,12 @@
+Using a modular architecture, dividing the project into Admin and UI modules for better organization. The project includes multiple Angular components, such as dashboard, orders, products, and customers, which are part of the Admin panel. The UI section contains elements like baskets, home, and products, enhancing the user experience.
+
+To manage API requests, I implemented HTTP services such as http-client.service.ts and product.service.ts, ensuring a clean separation of concerns. Additionally, I integrated Alertify.js and Toastr notifications through alertify.service.ts and custom-toastr.service.ts, improving user interaction feedback.
+
+The project is structured using feature modules, where each section (dashboard, products, orders, etc.) has its own dedicated module, making the application scalable and maintainable. Routing is likely managed in app-routing.module.ts, ensuring navigation between different sections.
+
+For styling, I followed Angular Material principles (if implemented) or custom styles, ensuring a clean UI. The project is also configured for dependency injection, allowing services to be used efficiently across components. It is ready for deployment with environment-based configurations (environment.ts and environment.prod.ts).
+
+
 # EShoppingClient
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
