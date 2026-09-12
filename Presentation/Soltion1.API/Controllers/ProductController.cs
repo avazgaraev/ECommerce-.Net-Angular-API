@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Solution1.Application.Repositories.ProductRepository;
+using Solution1.Application.RequestParameters;
 using Solution1.Application.ViewModels.Products;
 using Solution1.Domain.Entities.Common;
 using System.Diagnostics.Contracts;
+using System.Runtime.InteropServices;
 
 namespace Soltion1.API.Controllers
 {
@@ -20,10 +22,21 @@ namespace Soltion1.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IQueryable<Product>> Get()
+        public async Task<IActionResult> Get([FromQuery] Pagination pagination)
         {
-            IQueryable<Product> products= _productReadService.GetAll(false);
-            return products;
+            var totalNumber = _productReadService.GetAll(false).Count();
+            var products = _productReadService.GetAll(false).Skip(pagination.Size * pagination.Page).Take(pagination.Size).Select(p => new
+            {
+                p.Id,
+                p.Price,
+                p.Name,
+                p.Stock,
+                p.CreatedDate,
+                p.UpdatedDate
+            }); 
+            return Ok(new { 
+                totalNumber,
+                products});
         }
 
         [HttpGet("{id}")]
@@ -37,10 +50,6 @@ namespace Soltion1.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Post(VM_Product_Create model)
         {
-            if (!ModelState.IsValid)
-            {
-            }
-
             await _productWriteService.AddAsync(new()
             {
                 Name = model.Name,

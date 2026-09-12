@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\Projects\\E-CommercePro Net\u002BAngular\\EShoppingAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1454A28D-C593-446A-9357-0806978CC390}|Presentation\\Soltion1.API\\Soltion1.API.csproj|d:\\projects\\e-commercepro net\u002Bangular\\eshoppingapi\\presentation\\soltion1.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1454A28D-C593-446A-9357-0806978CC390}|Presentation\\Soltion1.API\\Soltion1.API.csproj|solutionrelative:presentation\\soltion1.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1454A28D-C593-446A-9357-0806978CC390}|Presentation\\Soltion1.API\\Soltion1.API.csproj|d:\\projects\\e-commercepro net\u002Bangular\\eshoppingapi\\presentation\\soltion1.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1454A28D-C593-446A-9357-0806978CC390}|Presentation\\Soltion1.API\\Soltion1.API.csproj|solutionrelative:presentation\\soltion1.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBBF3749-6A8C-4157-90C1-0B01FC7892CD}|Infrastructure\\Solution1.Infrastructure\\Solution1.Infrastructure.csproj|d:\\projects\\e-commercepro net\u002Bangular\\eshoppingapi\\infrastructure\\solution1.infrastructure\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBBF3749-6A8C-4157-90C1-0B01FC7892CD}|Infrastructure\\Solution1.Infrastructure\\Solution1.Infrastructure.csproj|solutionrelative:infrastructure\\solution1.infrastructure\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1454A28D-C593-446A-9357-0806978CC390}|Presentation\\Soltion1.API\\Soltion1.API.csproj|d:\\projects\\e-commercepro net\u002Bangular\\eshoppingapi\\presentation\\soltion1.api\\soltion1.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1454A28D-C593-446A-9357-0806978CC390}|Presentation\\Soltion1.API\\Soltion1.API.csproj|solutionrelative:presentation\\soltion1.api\\soltion1.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1454A28D-C593-446A-9357-0806978CC390}|Presentation\\Soltion1.API\\Soltion1.API.csproj|d:\\projects\\e-commercepro net\u002Bangular\\eshoppingapi\\presentation\\soltion1.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1454A28D-C593-446A-9357-0806978CC390}|Presentation\\Soltion1.API\\Soltion1.API.csproj|solutionrelative:presentation\\soltion1.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1454A28D-C593-446A-9357-0806978CC390}|Presentation\\Soltion1.API\\Soltion1.API.csproj|d:\\projects\\e-commercepro net\u002Bangular\\eshoppingapi\\presentation\\soltion1.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1454A28D-C593-446A-9357-0806978CC390}|Presentation\\Soltion1.API\\Soltion1.API.csproj|solutionrelative:presentation\\soltion1.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1454A28D-C593-446A-9357-0806978CC390}|Presentation\\Soltion1.API\\Soltion1.API.csproj|d:\\projects\\e-commercepro net\u002Bangular\\eshoppingapi\\presentation\\soltion1.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1454A28D-C593-446A-9357-0806978CC390}|Presentation\\Soltion1.API\\Soltion1.API.csproj|solutionrelative:presentation\\soltion1.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1454A28D-C593-446A-9357-0806978CC390}|Presentation\\Soltion1.API\\Soltion1.API.csproj|d:\\projects\\e-commercepro net\u002Bangular\\eshoppingapi\\presentation\\soltion1.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1454A28D-C593-446A-9357-0806978CC390}|Presentation\\Soltion1.API\\Soltion1.API.csproj|solutionrelative:presentation\\soltion1.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A9FCBB1-BEE3-4A56-807A-3241D6ABFB98}|Core\\Solution1.Application\\Solution1.Application.csproj|d:\\projects\\e-commercepro net\u002Bangular\\eshoppingapi\\core\\solution1.application\\requestparameters\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A9FCBB1-BEE3-4A56-807A-3241D6ABFB98}|Core\\Solution1.Application\\Solution1.Application.csproj|solutionrelative:core\\solution1.application\\requestparameters\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBBF3749-6A8C-4157-90C1-0B01FC7892CD}|Infrastructure\\Solution1.Infrastructure\\Solution1.Infrastructure.csproj|d:\\projects\\e-commercepro net\u002Bangular\\eshoppingapi\\infrastructure\\solution1.infrastructure\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBBF3749-6A8C-4157-90C1-0B01FC7892CD}|Infrastructure\\Solution1.Infrastructure\\Solution1.Infrastructure.csproj|solutionrelative:infrastructure\\solution1.infrastructure\\filters\\validationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A9FCBB1-BEE3-4A56-807A-3241D6ABFB98}|Core\\Solution1.Application\\Solution1.Application.csproj|d:\\projects\\e-commercepro net\u002Bangular\\eshoppingapi\\core\\solution1.application\\validators\\product\\createproductvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +42,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Soltion1.API",
+              "DocumentMoniker": "D:\\Projects\\E-CommercePro Net\u002BAngular\\EShoppingAPI\\Presentation\\Soltion1.API\\Soltion1.API.csproj",
+              "RelativeDocumentMoniker": "Presentation\\Soltion1.API\\Soltion1.API.csproj",
+              "ToolTip": "D:\\Projects\\E-CommercePro Net\u002BAngular\\EShoppingAPI\\Presentation\\Soltion1.API\\Soltion1.API.csproj",
+              "RelativeToolTip": "Presentation\\Soltion1.API\\Soltion1.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-24T11:10:39.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Projects\\E-CommercePro Net\u002BAngular\\EShoppingAPI\\Presentation\\Soltion1.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Presentation\\Soltion1.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Projects\\E-CommercePro Net\u002BAngular\\EShoppingAPI\\Presentation\\Soltion1.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Presentation\\Soltion1.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-24T11:10:35.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "D:\\Projects\\E-CommercePro Net\u002BAngular\\EShoppingAPI\\Core\\Solution1.Application\\RequestParameters\\Pagination.cs",
+              "RelativeDocumentMoniker": "Core\\Solution1.Application\\RequestParameters\\Pagination.cs",
+              "ToolTip": "D:\\Projects\\E-CommercePro Net\u002BAngular\\EShoppingAPI\\Core\\Solution1.Application\\RequestParameters\\Pagination.cs",
+              "RelativeToolTip": "Core\\Solution1.Application\\RequestParameters\\Pagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T12:11:38.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ValidationFilter.cs",
               "DocumentMoniker": "D:\\Projects\\E-CommercePro Net\u002BAngular\\EShoppingAPI\\Infrastructure\\Solution1.Infrastructure\\Filters\\ValidationFilter.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Solution1.Infrastructure\\Filters\\ValidationFilter.cs",
@@ -42,12 +91,11 @@
               "RelativeToolTip": "Infrastructure\\Solution1.Infrastructure\\Filters\\ValidationFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T12:03:05.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T12:03:05.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\E-CommercePro Net\u002BAngular\\EShoppingAPI\\Presentation\\Soltion1.API\\Program.cs",
               "RelativeDocumentMoniker": "Presentation\\Soltion1.API\\Program.cs",
@@ -60,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "CreateProductValidator.cs",
               "DocumentMoniker": "D:\\Projects\\E-CommercePro Net\u002BAngular\\EShoppingAPI\\Core\\Solution1.Application\\Validators\\Product\\CreateProductValidator.cs",
               "RelativeDocumentMoniker": "Core\\Solution1.Application\\Validators\\Product\\CreateProductValidator.cs",
@@ -68,31 +116,30 @@
               "RelativeToolTip": "Core\\Solution1.Application\\Validators\\Product\\CreateProductValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwCEAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T11:06:51.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T11:06:51.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Projects\\E-CommercePro Net\u002BAngular\\EShoppingAPI\\Presentation\\Soltion1.API\\appsettings.json",
               "RelativeDocumentMoniker": "Presentation\\Soltion1.API\\appsettings.json",
               "ToolTip": "D:\\Projects\\E-CommercePro Net\u002BAngular\\EShoppingAPI\\Presentation\\Soltion1.API\\appsettings.json",
               "RelativeToolTip": "Presentation\\Soltion1.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-22T14:40:25.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\Projects\\E-CommercePro Net\u002BAngular\\EShoppingAPI\\Presentation\\Soltion1.API\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Presentation\\Soltion1.API\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\Projects\\E-CommercePro Net\u002BAngular\\EShoppingAPI\\Presentation\\Soltion1.API\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Presentation\\Soltion1.API\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAkwCkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAUwCMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T14:03:57.685Z",
               "EditorCaption": ""
