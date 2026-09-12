@@ -4,6 +4,8 @@ import { CreateProduct } from '../../../contracts/create_product';
 import { HttpClientService } from '../http-client.service';
 import { __values } from 'tslib';
 import { error } from 'console';
+import { ListProduct } from '../../../contracts/list-product';
+import { firstValueFrom, lastValueFrom, Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +14,7 @@ export class ProductService {
 
   constructor(private httpClient: HttpClientService) { }
 
-  create(product: CreateProduct, successCallBack?:any, errorCallBack?:any){
+  create(product: CreateProduct, successCallBack?:any, errorCallBack?:(errorMessage: string)=>void){
     this.httpClient.post({
       controller:"product"
     },product).subscribe(result=>{
@@ -28,4 +30,25 @@ export class ProductService {
       errorCallBack(message);
     });
   }
+  async read(page: number =0, size:number = 5, successCallBack?:any, errorCallBack?:(errorMessage: string)=>void) : Promise<{totalNumber:number;products: ListProduct[]}>{
+    const promiseData : Promise<{totalNumber:number;products: ListProduct[]}>= lastValueFrom(this.httpClient.get({
+      controller:"product",
+      queryString:`page=${page}&size=${size}`
+    }));
+
+    promiseData.then(d=>{ 
+      console.log(d)
+      successCallBack})
+    .catch((errorResponse: HttpErrorResponse) => errorCallBack(errorResponse.message));
+
+    return await promiseData;
+  }
+
+  async delete(id: string){
+    const deletedData :Observable<any> =  this.httpClient.delete({
+      controller:"product"
+    },id)
+    await firstValueFrom(deletedData)
+  }
+
 }

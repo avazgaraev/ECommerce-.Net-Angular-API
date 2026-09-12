@@ -23,7 +23,7 @@ export class HttpClientService {
     if(requestParemeters.fullEndpoint)
       requestParemeters.fullEndpoint
     else
-      url = `${this.url(requestParemeters)}${id ? `/${id}` : ""}`
+      url = `${this.url(requestParemeters)}${id ? `/${id}` : ""}${requestParemeters.queryString? `?${requestParemeters.queryString}`: ""}`
 
     return this.httpClient.get<T>(url, {headers: requestParemeters.headers})
   }
@@ -33,7 +33,7 @@ export class HttpClientService {
     if(requestParemeters.fullEndpoint)
       url = requestParemeters.fullEndpoint
     else
-      url = `${this.url(requestParemeters)}`
+      url = `${this.url(requestParemeters)}${requestParemeters.queryString? `?${requestParemeters.queryString}`: ""}`
 
     return this.httpClient.post<T>(url, body, {headers:requestParemeters.headers})
   }
@@ -43,7 +43,7 @@ export class HttpClientService {
     if(requestParemeters.fullEndpoint)
       url= requestParemeters.fullEndpoint
     else
-      url = `${this.url(requestParemeters)}`
+      url = `${this.url(requestParemeters)}${requestParemeters.queryString? `?${requestParemeters.queryString}`: ""}`
 
     return this.httpClient.put<T>(url, body,{headers: requestParemeters.headers})
 
@@ -54,7 +54,7 @@ export class HttpClientService {
     if(requestParemeters.fullEndpoint)
       url= requestParemeters.fullEndpoint
     else
-      url = `${this.url(requestParemeters)}/${id}`
+      url = `${this.url(requestParemeters)}/${id}${requestParemeters.queryString? `?${requestParemeters.queryString}`: ""}`
 
     return this.httpClient.delete<T>(url,{headers: requestParemeters.headers})
   }
@@ -63,6 +63,7 @@ export class HttpClientService {
 export class RequestParemeters{
   controller?:string;
   action?:string;
+  queryString?:string;
 
   headers?:HttpHeaders;
   baseUrl?:string;
